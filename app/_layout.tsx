@@ -1,6 +1,5 @@
 import InitialLayout from '@/components/InitialLayout';
-import { ClerkLoaded } from '@clerk/clerk-expo';
-import { ClerkProvider } from '@clerk/expo';
+import { ClerkLoaded, ClerkProvider } from '@clerk/expo';
 import { tokenCache } from '@clerk/expo/token-cache';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
